@@ -15,9 +15,19 @@ application:
    this is long description
 
   # multi-line give all line to one line
-  address: >
-   Kapasia, Gazipur
-   Dhaka, Bangladesh
+  # address: >
+  #  Kapasia, Gazipur
+  #  Dhaka, Bangladesh
+
+  # 3. Anchor work like reference
+ address: &addr
+    city: Dhaka
+    country: Bangladesh
+    porttalCode: 1200
+
+ billingAddress: *addr #Alius
+ hopingAddress: *addr
+
 
 
   version: '1.0.0'
