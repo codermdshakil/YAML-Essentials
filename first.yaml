@@ -1,0 +1,50 @@
+
+application:
+ # name of the appluiication
+  name: MyApp
+
+  version: '1.0.0'
+
+  environment: production
+  
+  database:
+
+    host: db.example.com
+    port: 5432
+    username: admin
+    password: securepassword123
+  
+  caching:
+    enable : true
+    type: redis
+    ttl : 3600
+  
+  logging:
+    level: info
+    # it also work  
+    # outputs: [console, file]
+    # file: {path: var/log/myapp.log}
+    ouputs:
+      - console
+      - file
+
+    file:
+      path: /var/log
+      maxsize: 100M
+      maxfiles: 5
+  
+  api:
+    endpoint : https://api
+    timeout: 30000
+    retiries: 3
+
+  
+  features:
+    - name: newUserInterface
+      enabled: true
+      rollouPerchantage: 75
+
+
+    - name : recommendationEngine
+      enabled: false
+      rollouPerchantage: 0
