@@ -3,6 +3,23 @@ application:
  # name of the appluiication
   name: MyApp
 
+
+  # multi-line
+
+  description: | 
+   this is long description
+   this is long description
+   this is long description
+   this is long description
+   this is long description
+   this is long description
+
+  # multi-line give all line to one line
+  address: >
+   Kapasia, Gazipur
+   Dhaka, Bangladesh
+
+
   version: '1.0.0'
 
   environment: production
