@@ -1,4 +1,16 @@
 # name : HM Nayem
 # age : "20"
 
+topics:
+  - Data types:
+    - string
+    - number
+    - boolean
+    - null
+    - date
+  - Structure
+    - types:
+    - list
+    - dictionary
+    
 
