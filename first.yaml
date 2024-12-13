@@ -102,4 +102,12 @@ string: !!str 1234
 boolean: !!bool "true"
 timestamp : !!timestamp 2024-12-12
 
+# summary
+# ----------
+# comments
+# multi line
+# anchor
+# aleus
+# mergine
+# tags
 
