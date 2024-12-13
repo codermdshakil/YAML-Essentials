@@ -25,8 +25,15 @@ application:
     country: Bangladesh
     porttalCode: 1200
 
- billingAddress: *addr #Alius
- hopingAddress: *addr
+# Merge
+ billingAddress: 
+   <<: *addr 
+   country: India
+
+ hopingAddress:
+   <<: *addr
+   country : Pakistan
+
 
   list: &li 
    - one 
