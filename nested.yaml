@@ -1,0 +1,18 @@
+
+
+
+# summary 
+# key principles of YAML syntax:
+    # Colons separate key-value pairs
+    # Dashes denote list items
+    # indentation defines structure
+    # Comments start with a '#' symbol
+
+# YAML supports various data types:
+    # String : name : John Doe
+    # Number : age : 20
+    # Boolean : is_employeed: true
+    # NULL : spouse: NULL
+    # Dates : birthdate: 2004-12-04
+    # Lists : As we've seen earlier
+    # Dictionaries : Nested key-value pairs
