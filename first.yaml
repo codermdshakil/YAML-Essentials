@@ -88,3 +88,9 @@ application:
     - name : recommendationEngine
       enabled: false
       rollouPerchantage: 0
+
+# using --- we can create new documentation
+--- 
+document:
+  - hello yaml
+  
