@@ -8,9 +8,8 @@ topics:
     - boolean
     - null
     - date
-  - Structure
-    - types:
+  - Structure:
     - list
     - dictionary
-    
+
 
