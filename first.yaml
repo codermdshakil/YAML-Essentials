@@ -93,4 +93,13 @@ application:
 --- 
 document:
   - hello yaml
-  
+
+# YAML tags
+integer: !!int 123
+float: !!float 123.34
+float2: !!float 13.2
+string: !!str 1234
+boolean: !!bool "true"
+timestamp : !!timestamp 2024-12-12
+
+
